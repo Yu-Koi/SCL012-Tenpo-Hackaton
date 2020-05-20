@@ -28,7 +28,8 @@
   align-items: center;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 11px;
+  width: 112px;
 }
 
 .noSolicitud {
@@ -46,9 +47,14 @@
 
 .infoDate {
   font-size: 11px;
+  color: #ccc;
 }
 
 .iconStatus {
   height: 2em;
   margin-right: 0.3em;
+}
+
+.iconCheck {
+  height: 1.6em;
 }

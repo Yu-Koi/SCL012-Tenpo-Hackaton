@@ -9,20 +9,27 @@ import { firebase } from "../firebase";
 import Tooltip from './Tooltip'
 
 
-
 const useStyles = makeStyles((theme) => ({
   transtationState: {
     marginLeft: theme.spacing(2),
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
   },
+  titless: {
+    fontFamily: "Montserrat",
+    fontWeight: "Bold",
+    fontSize: "15px"
+  },
+  title2: {
+    fontFamily: "Montserrat",
+    fontSize: "13px"
+  }
 
 }));
 
-
-
 const Prueba = () => {
   const classes = useStyles();
-  
-
   const [movement, setMovement] = React.useState([]);
 
   React.useEffect(() => {
@@ -45,12 +52,11 @@ const Prueba = () => {
   return (
     <Fragment>
       <div className="movements">
-      <header className="welcomeMovements">
-          <Typography variant="h5">Transsacciones descontadas</Typography>
+        <header className="welcomeMovements">
+          <h5 className='titleMovements'>Transacciones descontadas</h5>
         </header>
         <section>
         <Grid container>
-
           <Grid item xs={12} sm={12} md={12}>
             {movement.map((item) => (
               <Grid item xs={12} sm={12} md={12} className="categoryMovements">
@@ -66,16 +72,15 @@ const Prueba = () => {
                       <div className="prueba">
                         <div className={classes.transtationState}>
                           <div className="datos">
-                          <Typography  className={classes.title}>
+                          <Typography  className={classes.titless}>
                           {item.transaccion} {item.monto}
                            </Typography>
                             
                           </div>
                           <div className="datos">
-                          <Typography  className={classes.title}>
-                          {item.estado} {item.fecha}
-                           </Typography>
-                           
+                            <Typography  className={classes.title2}>
+                              {item.estado} {item.fecha}
+                            </Typography>
                           </div>
                         </div>
                         <div className="info">
