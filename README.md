@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# GANANDO TENPO
 
-## Available Scripts
+![Imagen de Tenpo](https://lh5.googleusercontent.com/5A8rBjac9AjedziShihqjqCEXEj04t_260wORfTX3RuM04wL9eu0Ifow3Djjb8Dawo9K6wpioEaO7xGd1vMPoYyW3E5-kSXKA8lelE2FeZ_QmoSGXIErZiFA22SMJcBKW7p61um8)
 
-In the project directory, you can run:
+**Squad 7**: Arepaconpebre
 
-### `npm start`
+Equipo Front End:
+ - Diana Rojas 
+ - Nerymar Guarnizo 
+ - Bárbara Di Niscia
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+UX Designer:
+- Catalina Cepeda
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+*20 de mayo 2020*
 
-### `npm test`
+## Objetivo del proyecto:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Brindar una atención al cliente de calidad que nos permita estar siempre que el usuario nos necesite, teniendo en cuenta que Tenpo es una empresa 100% digital.
 
-### `npm run build`
+## Descripción del proyecto:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Tenpo es una aplicación financiera donde puedes manejar tu plata sin papeles ni trámites burocráticos y hacer diversos tipos de transacciones de manera fácil, rápida y segura. Pudiendo realizar compras en sitios web internacionales y pagar suscripciones sin necesidad de una tarjeta de crédito.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Para este desafío, Tenpo nos solicitó crear una oportunidad de mejora para potenciar la calidad de servicio al cliente. Para esto realizamos un estudio donde investigamos la cantidad de reclamos que existen a través de la aplicación, y muy importante saber a qué correspondían los reclamos. Acá obtuvimos la siguiente cifra:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- El 32% de requerimientos corresponde a “reclamos”.
 
-### `npm run eject`
+- Si investigamos estos reclamos, nos dimos cuenta que el 24% corresponde a que no se refleja el retiro de plata a cuenta bancaria. Lo que genera mucha incertidumbre, ya que no se ve dónde se va la plata.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+También utilizamos la herramienta Maze para poder testear una tarea sencilla: “acabas de transferir plata y aún no se refleja en tu saldo. ¿Cómo podrías obtener respuesta a esta tarea? El 77% supo encontrar la respuesta mediante el Centro de Ayuda; no así, el 23% restante que no encontró respuestas, ya que se dirigió al chatbot y no tiene las respuestas necesarias. Gracias a esta investigación pudimos presentar nuestras propuestas de mejora.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Por lo tanto llegamos a la conclusión de que el usuario necesita por un lado, más confianza a la hora de ver que está sucediendo con su plata, es decir, tiempo en reflejarse su carga de plata y retiro de plata de Tenpo a cuenta bancaria. Y además disminución de tickets al momento de hacer consultas en servicio al cliente.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para esto generamos tres soluciones:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1.  Visualizar el monto a descontar y tener un seguimiento.
+    
+2.  Disminuir a máximo tickets de reclamo. Aplicando categorías y subcategorías a las solicitudes .
+    
+3.  Eliminar Chatbot y crear un nuevo ítem de preguntas frecuentes.
+    
 
-## Learn More
+## Tecnologías utilizadas:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Utilizamos React para la estructura, Firebase para guardar la información, CSS3, Flexbox y Material-UI para los estilos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Video Squad Arepa con pebre
 
-### Code Splitting
+[https://www.loom.com/share/729c9b1d479b4ced86dc495d931d5896](https://www.loom.com/share/729c9b1d479b4ced86dc495d931d5896)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Video Demo
 
-### Analyzing the Bundle Size
+[https://www.loom.com/share/89458e4ab2694a0cb4a7838bc9424568](https://www.loom.com/share/89458e4ab2694a0cb4a7838bc9424568)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Deploy del proyecto
+**Atención**: Este proyecto fue diseñado y programado solo para dimensiones de de celular, ya que está basado en una app mobile.
+Link del [deploy](https://scl012-tenpo-hackaton.firebaseapp.com/) 🚀
